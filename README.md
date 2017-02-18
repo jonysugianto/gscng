@@ -14,7 +14,9 @@ To install:
 
 1. git clone https://github.com/jonysugianto/gscng
 
-2. a) cd gscng
+2. download https://github.com/jonysugianto/gscng/breastcancerimages put into(for example: /tmp)
+
+3. a) cd gscng
    b) mvn clean compile assembly:single
 
-3. java -classpath growing_neural_gas-1.0-SNAPSHOT-jar-with-dependencies.jar js.minist.InitialTraining
+4. java -classpath generalized-sparse-coding-neural-gas-1.0-SNAPSHOT-jar-with-dependencies.jar js.example.GScNgRunner /tmp/breastcancerimages
